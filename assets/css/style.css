@@ -87,6 +87,7 @@ table {
     text-align: center;
     overflow: hidden;
     max-width: 100%;
+    display:inline-block;
     
 }
 
@@ -128,17 +129,13 @@ a {
 
 iframe {
     border-radius: 20px;
-    width: 300px;
+    width: 100%;
     margin-bottom: 40px;
     overflow: hidden;
         
 }
 
-.container {
-    position: relative;
-    overflow: hidden;
 
-}
 
 section {
     background-color: #e9e9e9;
