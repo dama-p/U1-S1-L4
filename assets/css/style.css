@@ -5,7 +5,7 @@ body {
   text-align: left;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
-  max-width: 500px;
+  max-width: 400px;
   margin: 40px;
   font-size: 17px;
 
@@ -22,6 +22,15 @@ header {
     text-decoration: none;
     box-shadow: 0px 7px 11px -3px #54535C;
     margin-bottom: 20px;
+    max-width: 100%;
+
+}
+
+.logo {
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    
 
 }
 
@@ -76,7 +85,12 @@ caption {
 table {
     border-collapse: collapse;
     text-align: center;
+    overflow: hidden;
+    max-width: 100%;
+    
 }
+
+
 
 thead { 
     vertical-align: bottom;
@@ -116,7 +130,14 @@ iframe {
     border-radius: 20px;
     width: 300px;
     margin-bottom: 40px;
+    overflow: hidden;
         
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+
 }
 
 section {
